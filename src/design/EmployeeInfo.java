@@ -18,7 +18,8 @@ public class EmployeeInfo extends AbstractClass implements Employee{
      */
     @Override
     public void sickTime() {
-        super.sickTime();
+
+
     }
 
     @Override
