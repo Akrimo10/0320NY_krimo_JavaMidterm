@@ -1,5 +1,4 @@
 package algorithm;
-
 import org.testng.Assert;
 
 public class UnitTestSorting {

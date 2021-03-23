@@ -15,7 +15,25 @@ public class FortuneEmployee {
      </p>
      **/
     public static void main(String[] args) {
+        EmployeeInfo employeeInfoConstructor1 = new EmployeeInfo();
+        EmployeeInfo employeeInfoConstructor2 = new EmployeeInfo(1);
+        EmployeeInfo employeeInfoConstructor3 = new EmployeeInfo("Akli",2);
+
+        EmployeeInfo employeeInfo = new EmployeeInfo();
+
+        employeeInfo.sickTime();
+
+        employeeInfo.nestedMethod();
+
+        EmployeeInfo.setCompanyName("Timberland");
+        System.out.println(EmployeeInfo.getCompanyName());
+
+        EmployeeInfo.calculateEmployeeBonus(4);
+        EmployeeInfo.calculateEmployeePension();
+
+
 
     }
+
 
 }
